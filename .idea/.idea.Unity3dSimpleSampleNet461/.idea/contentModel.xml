@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ChangeTextInWebGL.cs" t="Include" />
+        <e p="DisableInWebGL.cs" t="Include" />
+        <e p="EtherTransferCoroutinesUnityWebRequest.cs" t="Include" />
+        <e p="GetLatestBlockCoroutine.cs" t="Include" />
+        <e p="GetLatestBlockVanillaNethereum.cs" t="Include" />
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="link.xml" t="Include" />
+        <e p="TokenDeployAndSendCoroutinesUnityWebRequest.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Unity3dSimpleSampleNet461.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Unity3dSimpleSampleNet461.1870625510.00" t="ExcludeRecursive" />
+  </component>
+</project>

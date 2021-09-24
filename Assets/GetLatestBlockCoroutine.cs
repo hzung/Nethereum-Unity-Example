@@ -1,11 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Nethereum.JsonRpc.UnityClient;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.Util;
-using System.Diagnostics;
+using Newtonsoft.Json;
 
 public class GetLatestBlockCoroutine : MonoBehaviour
 {
