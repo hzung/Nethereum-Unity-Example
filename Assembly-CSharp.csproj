@@ -318,6 +318,9 @@
  <Reference Include="Nethereum.Besu">
  <HintPath>/Users/team0x/Desktop/Unity3dSimpleSampleNet461/Assets/Plugins/Nethereum.Besu.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/team0x/Desktop/Unity3dSimpleSampleNet461/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Nethereum.Contracts">
  <HintPath>/Users/team0x/Desktop/Unity3dSimpleSampleNet461/Assets/Plugins/Nethereum.Contracts.dll</HintPath>
  </Reference>
@@ -371,9 +374,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/Users/team0x/Desktop/Unity3dSimpleSampleNet461/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/team0x/Desktop/Unity3dSimpleSampleNet461/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2018.4.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

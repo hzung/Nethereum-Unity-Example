@@ -21,13 +21,13 @@ using UnityEngine.UI;
 
 public class EtherTransferCoroutinesUnityWebRequest : MonoBehaviour {
 
-    public string Url = "http://localhost:8545";
-    public string PrivateKey = "0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7";
-    public string AddressTo = "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe";
-    public decimal Amount = 1.1m;
-    public decimal GasPriceGwei = 2;
-    public string TransactionHash = "";
-    public decimal BalanceAddressTo = 0m;
+    private string Url = "http://192.168.1.41:7545";
+    private string PrivateKey = "0x091ea2295a8e8919f01c8e3ed8d9531bc779ece82ebce3eb663d14c71d1acb92";
+    private string AddressTo = "0xBf10347fee88db59E4A5143a29E6746B9589bd6A";
+    private decimal Amount = 1.1m;
+    private decimal GasPriceGwei = 2;
+    private string TransactionHash = "";
+    private decimal BalanceAddressTo = 0m;
 
     public InputField InputUrl;
     public InputField InputPrivateKey;
@@ -68,11 +68,11 @@ public class EtherTransferCoroutinesUnityWebRequest : MonoBehaviour {
         Amount = System.Decimal.Parse(InputAmount.text);
 
         //initialising the transaction request sender
-        var ethTransfer = new EthTransferUnityRequest(Url, PrivateKey, 444444444500);
+        var ethTransfer = new EthTransferUnityRequest(Url, PrivateKey, 1337);
 
         var receivingAddress = AddressTo;
 
-        var feeStrategy = FeeStrategy.MedianFeeHistory;
+        var feeStrategy = FeeStrategy.Legacy;
 
         if (feeStrategy == FeeStrategy.TimePreference)
         {

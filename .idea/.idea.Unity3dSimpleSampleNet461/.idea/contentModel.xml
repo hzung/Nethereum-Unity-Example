@@ -9,9 +9,6 @@
         <e p="EtherTransferCoroutinesUnityWebRequest.cs" t="Include" />
         <e p="GetLatestBlockCoroutine.cs" t="Include" />
         <e p="GetLatestBlockVanillaNethereum.cs" t="Include" />
-        <e p="JsonDotNet" t="Include">
-          <e p="link.xml" t="Include" />
-        </e>
         <e p="link.xml" t="Include" />
         <e p="TokenDeployAndSendCoroutinesUnityWebRequest.cs" t="Include" />
       </e>
